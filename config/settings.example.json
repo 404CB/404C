@@ -1,0 +1,37 @@
+{
+  "project_name": "Claw-back 4",
+  "symbol": "CLAW",
+  "version": "1.0.0-ALPHA",
+
+  "protocol_settings": {
+    "target_contract": "YOUR_FOURMEME_CONTRACT_ADDRESS",
+    "treasury_address": "YOUR_CLAW_TREASURY_WALLET",
+    "network": "BNB_Chain",
+    "tax_rate": "1%"
+  },
+
+  "fomo_engine_configs": {
+    "//备注": "The Claw Grab: 每达到买入次数触发一次随机掠夺发奖",
+    "claw_grab_interval": 50,
+    "min_prize_pool_threshold": 0.05,
+    "distribution_ratio": 0.5,
+
+    "//备注": "Alpha Shield: 价格自动防御回购逻辑",
+    "price_protection_enabled": true,
+    "dump_detection_threshold": -0.05,
+    "auto_buyback_amount": "dynamic"
+  },
+
+  "clawbot_skill_params": {
+    "log_level": "VERBOSE",
+    "visual_mode": "Claw_Terminal_Style",
+    "gas_strategy": "Aggressive",
+    "retry_on_failure": true
+  },
+
+  "social_integration": {
+    "tweet_on_big_win": true,
+    "telegram_announcement": true,
+    "announcement_template": "🚨 THE CLAW HAS GRABBED A WINNER! 🦀"
+  }
+}
