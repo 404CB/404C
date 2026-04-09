@@ -1,8 +1,5 @@
 # 🦀 CLAW-BACK: THE ALPHA SURGE PROTOCOL
 
-<p align="center">
-  <img src="https://your-image-url.com/banner-minimal.png" alt="Claw-back Banner" width="800">
-</p>
 
 ### THE CLAW IS NOT A TOOL. IT IS A PREDATOR.
 
