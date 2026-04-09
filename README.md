@@ -1,48 +1,70 @@
-# 🦀 Claw-back: The Alpha Surge Protocol 🚀
+CLAW-BACK: THE ALPHA SURGE PROTOCOL
+THE CLAW IS NOT A TOOL. IT IS A PREDATOR.
+市场里有人在等分红，我们在等猎物。
 
-![Banner](https://your-image-url.com/banner.png) > **"The Claw is not just a tool; it's a predator. While others wait for dividends, we hunt for the moon."**
+01. 核心叙事：为什么是 Claw-back？
+说实话，这一轮 BNB Chain 上的 1% 税币已经泛滥。
+大多数项目在最初的兴奋感消失后，都会陷入沉寂。
 
----
+问题不在机制，而在“没有刺激”。
 
-## 💎 核心愿景：打破平庸的 1% 
+没人关心微薄的分红，因为价格已经失去波动。
 
-大多数 1% 税收币最终都走向了沉寂。**Claw-back** 拒绝平庸。我们通过 **Clawbot (基于 OpenClaw 技术)** 注入了人工神经网络级的 FOMO 逻辑，让每一笔交易都成为拉升的燃料。
+Claw-back 的出发点：
+如果一笔交易不能让人心跳加速，那它就没有意义。我们做的不是一个“分红币”，而是一个让每一笔交易都有可能改变命运的游戏。
 
----
+02. 链上逻辑：Clawbot 的三条铁律
+Clawbot 是一个盯着链上猎物的自动化执行逻辑。它不发工资，不讲感情，只执行以下三件事：
 
-## ⚡ 战斗机制 (The Battle Mechanics)
+I. CLAW GRAB ( 随机暴击 )
+我们不做“平均主义”。
+平均分配只会导向平庸。系统会不定期、无预警地触发“捕猎”程序：
 
-我们废弃了传统的、死板的分红模式，引入了由 **Clawbot** 实时驱动的三大“掠夺者”方案：
+动作： 从最近的买家中随机抽取一人。
 
-### 1. 🦞 The Claw Grab (幸运猎杀)
-**不要期待分红，要期待暴富。**
-每当交易计数器触碰触发点，Clawbot 会瞬间切入链上，从最近的买家中随机抽取一名“头号玩家”，直接空投国库 50% 的累积资金。
-* **状态：** 实时监控中 🟢
-* **FOMO 点：** 下一个买入的人，可能就是瞬间翻倍的那个。
+结果： 将国库累积的大额资金直接砸向该地址。
 
-### 2. 🔥 Alpha Shield (价格护盾)
-**跌破底线？不存在的。**
-Clawbot 24小时不间断监控价格曲线。一旦检测到恶意砸盘或跌幅过大，机器人将自动激活“回购燃烧”程序，用国库资金在底部形成强力支撑，并将回购的代币永久送入黑洞。
-* **策略：** 低买高烧，通缩拉升。
+核心： 这种改变命运的机会没有预告。你唯一能做的，就是保持在场。
 
-### 3. 👑 HODLers' Honor (大户荣耀)
-**忠诚即正义。**
-Clawbot 会定期扫描持仓分布。那些从未卖出的“钻石手”将被标记，并获得由 Clawbot 自动派发的未来子项目白名单及“Alpha 勋章”。
+II. ALPHA SHIELD ( 价格护盘 )
+防御不是为了好看，是为了让砸盘者付出代价。
+大多数项目死于：砸盘 → 恐慌 → 崩盘。
 
----
+动作： Clawbot 实时监测价格曲线，一旦跌幅触及警戒线，立即动用资金池回购并销毁。
 
-## 🛠 技术实现 (Github Skill)
+结果： 在底部形成强力支撑。
 
-本项目通过定制化的 `fourmeme-fomo-booster` 插件运行于 **Clawbot** 核心。
+目标： 让市场知道，这里不是随便能砸穿的地方。
 
-### 快速部署
-1. 将本项目 `skills/` 文件夹下的代码拉取到你的 Clawbot 环境。
-2. 配置 `config.json` 中的 `TOKEN_ADDRESS`。
-3. 启动机器人：`pnpm start`。
+III. HODLERS' HONOR ( 长期玩家奖励 )
+市场最稀缺的资源不是钱，是耐心。
+我们通过链上数据筛选真正的 HODLer。
 
-```javascript
-// 核心逻辑片段：自动掠夺与重分配
-if (tx.isBuy && counter % 50 === 0) {
-    await clawbot.executeCapture(lucky_buyer);
-    console.log("SUCCESS: The Claw has rewarded a new alpha.");
-}
+动作： Clawbot 识别并记录从未卖出的地址。
+
+结果： 在后续的子项目与生态版图中，这些地址将获得绝对的优先权。
+
+核心： 不用喊口号，链上数据就是你的履历。
+
+03. 真实陈述 ( Reality Check )
+这并非一个完美的设计。它更像是一个实验：
+将“FOMO”从一句口号，变成链上的硬核执行逻辑。
+
+市场从来不是靠分红驱动的，是靠“有人赚到离谱的钱”驱动的。我们只是把这件大家都在做、却不敢明说的事，写成了代码。
+
+04. 风险告诫
+如果你想要的是稳定的收益，这个项目不适合你。
+
+但如果你愿意参与一个更原始一点的游戏——
+有人在狩猎，有人被狩猎。
+
+Claw-back 会是一个有意思的位置。
+
+技术规格
+Protocol: FourMeme Launchpad (BNB Chain)
+
+Tax Rate: 1% (Dynamic Reallocation)
+
+Engine: Clawbot Skill v1.0 (Alpha Surge)
+
+STATUS: READY TO HUNT.
